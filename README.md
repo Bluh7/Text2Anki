@@ -34,7 +34,7 @@ docker compose up --build
 2. **Upload your text**: Write or paste your text into the provided text area.
 3. **Generate flashcards**: Click the button to Generate your flashcards.
 4. **Preview the flashcards**: Preview all the generate flashcards before downloading.
-5. **Export to Anki**: Click the button to download the flashcards in CSV and export to your Anki.
+5. **Export to Anki**: Click the button to download the flashcards in CSV and import to your Anki.
 
 ## 🤝 Contributing
 I welcome contributions from anyone! So feel free to contribute if you want.
