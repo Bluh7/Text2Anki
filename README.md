@@ -1,7 +1,4 @@
-﻿# Text2Anki
-AI-powered web app that converts text into Anki flashcards, ready for quick import and efficient study
-
-## 🃏 Introduction
+# 🃏 Introducing `Text2Anki`
 Text2Anki is an AI-powered web application designed to help users convert large texts into Anki flashcards. This app uses [DeepSeek](https://www.deepseek.com) to identify key information and generate flashcards that can be easily imported into [Anki](https://apps.ankiweb.net), a popular spaced repetition software.
 
 ## 📸 Screenshot
