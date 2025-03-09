@@ -1,20 +1,20 @@
 ﻿# Text2Anki
-AI-powered web app that processes big texts into ready-to-import Anki flashcards.
+AI-powered web app that converts text into Anki flashcards, ready for quick import and efficient study
 
-## Introduction
+## 🃏 Introduction
 Text2Anki is an AI-powered web application designed to help users convert large texts into Anki flashcards. This app uses [DeepSeek](https://www.deepseek.com) to identify key information and generate flashcards that can be easily imported into [Anki](https://apps.ankiweb.net), a popular spaced repetition software.
 
-## Screenshot
+## 📸 Screenshot
 ![demo](https://i.imgur.com/YmcZH75.png)
 
-## Features
+## 🚀 Features
 - **DeepSeek text processing**: Utilizes the [DeepSeek](https://www.deepseek.com) natural language processing to extract key information and generate flashcards.
 - **Web interface**: An web interface for ease of use.
 - **Preview flashcards**: Allows users to preview the generated flashcards before exporting.
 - **Support for multiple languages**: Can process texts in various languages.
 - **Seamless Anki integration**: Directly exports flashcards in a CSV format compatible with [Anki](https://apps.ankiweb.net).
 
-## Installation
+## 🔧 Installation
 To set up Text2Anki locally, follow these steps:
 
 1. **Clone the repository**:
@@ -31,7 +31,7 @@ cd Text2Anki
 ```bash
 docker compose up --build
 ```
-## Usage
+## ⚡ Usage
 
 1. **Open the application**: Navigate to `http://localhost:3000` in your web browser.
 2. **Upload your text**: Write or paste your text into the provided text area.
@@ -39,5 +39,5 @@ docker compose up --build
 4. **Preview the flashcards**: Preview all the generate flashcards before downloading.
 5. **Export to Anki**: Click the button to download the flashcards in CSV and export to your Anki.
 
-## Contributing
+## 🤝 Contributing
 I welcome contributions from anyone! So feel free to contribute if you want.
