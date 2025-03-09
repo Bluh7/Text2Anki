@@ -20,6 +20,8 @@ git clone https://github.com/Bluh7/Text2Anki.git
 cd Text2Anki
 ```
 
+2. **Get an API key from OpenRouter**: https://openrouter.ai/settings/keys
+
 2. **Adjust the environment variables**: You can check `.env.example`
 
 3. **Build and initialize with Docker**:
