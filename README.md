@@ -2,14 +2,14 @@
 AI-powered web app that processes big texts into ready-to-import Anki flashcards.
 
 ## Introduction
-Text2Anki is an AI-powered web application designed to help users convert large texts into Anki flashcards. This app uses DeepSeek to identify key information and generate flashcards that can be easily imported into Anki, a popular spaced repetition software.
+Text2Anki is an AI-powered web application designed to help users convert large texts into Anki flashcards. This app uses [DeepSeek](https://www.deepseek.com) to identify key information and generate flashcards that can be easily imported into [Anki](https://apps.ankiweb.net), a popular spaced repetition software.
 
 ## Features
-- **DeepSeek text processing**: Utilizes the DeepSeek natural language processing to extract key information and generate flashcards.
+- **DeepSeek text processing**: Utilizes the [DeepSeek](https://www.deepseek.com) natural language processing to extract key information and generate flashcards.
 - **Web interface**: An web interface for ease of use.
 - **Preview flashcards**: Allows users to preview the generated flashcards before exporting.
 - **Support for multiple languages**: Can process texts in various languages.
-- **Seamless Anki integration**: Directly exports flashcards in a CSV format compatible with Anki.
+- **Seamless Anki integration**: Directly exports flashcards in a CSV format compatible with [Anki](https://apps.ankiweb.net).
 
 ## Installation
 To set up Text2Anki locally, follow these steps:
