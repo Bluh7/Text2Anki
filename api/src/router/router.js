@@ -5,13 +5,13 @@ import validateData from "../middlewares/validationMiddleware.js";
 import textSchema from "../schemas/textSchema.js";
 import fileNameSchema from "../schemas/fileNameSchema.js";
 
-import CardGenerationController from "../controllers/CardGenerationController.js";
+import cardGenerationController from "../controllers/CardGenerationController.js";
 import cardDownloadController from "../controllers/CardDownloadController.js";
 
 router.post(
   "/api/card",
   validateData(textSchema),
-  CardGenerationController.generateAnkiCards.bind(CardGenerationController)
+  cardGenerationController.generateAnkiCards.bind(cardGenerationController)
 );
 
 router.get(
