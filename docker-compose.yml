@@ -1,0 +1,30 @@
+services:
+  api:
+    build: ./api
+    ports:
+      - "8080:8080"
+    networks:
+      - app-network
+    env_file:
+      - ./.env
+    environment:
+      - NODE_ENV=production
+    #volumes:
+    #  - ./api:/app
+
+  frontend:
+    build: ./front
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api
+    networks:
+      - app-network
+    environment:
+      - API_BASE_URL=http://api:8080
+    #volumes:
+    #  - ./front:/app
+
+networks:
+  app-network:
+    driver: bridge

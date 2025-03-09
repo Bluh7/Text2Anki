@@ -1,0 +1,22 @@
+{
+  "name": "text2anki-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Uses AI to generate Anki flashcards from text and gives you a link to download them in Anki CSV format.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node --env-file=.env ./src/server.js"
+  },
+  "keywords": [],
+  "author": "Bluh7",
+  "license": "MIT",
+  "packageManager": "pnpm@10.6.0",
+  "dependencies": {
+    "axios": "^1.8.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "zod": "^3.24.2"
+  }
+}
