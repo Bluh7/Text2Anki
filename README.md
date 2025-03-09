@@ -41,3 +41,6 @@ docker compose up --build
 
 ## 🤝 Contributing
 I welcome contributions from anyone! So feel free to contribute if you want.
+
+## 🛡️ License
+This project is licensed under the MIT License - see the [`LICENSE`](LICENSE) file for details.
