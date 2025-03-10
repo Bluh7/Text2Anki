@@ -11,21 +11,19 @@ class AiService {
       "Content-Type": "application/json",
       "Authorization": `Bearer ${this.apiKey}`,
     };
+    this.axiosInstance = axios.create({
+      baseURL: this.apiUrl,
+      headers: this.headers,
+    });
   }
 
   async generateCards(text) {
     try {
-      const response = await axios.post(
-        this.apiUrl,
-        {
-          model: this.model.id,
-          messages: [this.aiInstruction, { role: "user", content: text }],
-          temperature: this.model.temperature,
-        },
-        {
-          headers: this.headers,
-        }
-      );
+      const response = await this.axiosInstance.post("/v1/chat/completions", {
+        model: this.model.id,
+        messages: [this.aiInstruction, { role: "user", content: text }],
+        temperature: this.model.temperature,
+      });
 
       return response.data?.choices[0]?.message?.content;
     } catch (error) {
