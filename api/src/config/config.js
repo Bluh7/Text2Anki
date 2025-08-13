@@ -10,8 +10,8 @@ export default {
     apiUrl: process.env.OPEN_ROUTER_AI_API_URL,
     apiKey: process.env.OPEN_ROUTER_AI_API_KEY,
     model: {
-      // R1 generates way more latency than the current default but may be more accurate though it's not guaranteed
-      id: process.env.OPEN_ROUTER_AI_MODEL_ID || "deepseek/deepseek-chat:free", // "deepseek/deepseek-r1:free",
+      // R1 generates way more latency than than the current default 
+      id: process.env.OPEN_ROUTER_AI_MODEL_ID || "moonshotai/kimi-k2:free", // "deepseek/deepseek-r1:free",
       temperature: parseInt(process.env.OPEN_ROUTER_AI_MODEL_TEMPERATURE) || 1,
       instructions: aiInstructions,
     },
